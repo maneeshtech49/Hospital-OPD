@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Token Status</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            background: #f4f6f8;
+            margin: 0;
+        }
+        header {
+            background: #2c7be5;
+            color: white;
+            padding: 15px;
+        }
+        .card {
+            background: white;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .big {
+            font-size: 40px;
+            font-weight: bold;
+            color: #2c7be5;
+        }
+        .status {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .btn {
+            background: green;
+            color: white;
+            padding: 12px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #222;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>🏥 Children Hospital - Live Token Status</h2>
+</header>
+
+<div class="card">
+    <p>Now Serving Token</p>
+    <div class="big">15</div>
+</div>
+
+<div class="card">
+    <p>Next Token</p>
+    <div class="big">16</div>
+</div>
+
+<div class="card">
+    <p>Doctor Status</p>
+    <div class="status">Available</div>
+</div>
+
+<div class="card">
+    <p>Last Updated</p>
+    <div>2:30 PM</div>
+</div>
+
+<a class="btn" href="https://wa.me/919014880573?text=Hi, I want token status update">
+    Get Updates on WhatsApp
+</a>
+
+<footer>
+    <p>📍 Nirmal</p>
+    <p>📞 Contact: 9014880573</p>
+</footer>
+
+</body>
+</html>
